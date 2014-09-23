@@ -24,3 +24,5 @@ python app.py https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_12345/conta
 with your storage url and tempurl key and magically upload files into your CF container. (As long as you have x-container-meta-access-control-allow-access:* set on it).
 
 Hopefully this will help clear things up.
+
+PS (if you want formpost to work over ajax leave your redirect = ''.)
