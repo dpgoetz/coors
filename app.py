@@ -8,6 +8,8 @@ app = Flask(__name__)
 
 if len(sys.argv) < 3:
     print 'please provide cf_path and tempurl-key'
+    print 'python app.py https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_12345/container/prefix tempurl-key'
+    print 'Make sure you have x-container-meta-access-control-allow-origin:* set on your container'
     sys.exit(1)
 
 cf_path = sys.argv[1]
