@@ -4,6 +4,8 @@ you can run that like this:
 
 ./fp_page_gen.py https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_12345/container/prefix http://the-redirect.com tempurl-key ttl > test.html
 
+ttl would just be an integer like 900
+
 and then 
 python -m SimpleHTTPServer
 
