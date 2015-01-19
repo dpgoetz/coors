@@ -21,7 +21,11 @@ then you can run
 
 python app.py https://storage101.ord1.clouddrive.com/v1/MossoCloudFS_12345/container/prefix tempurl-key
 
-with your storage url and tempurl key and magically upload files into your CF container. (As long as you have x-container-meta-access-control-allow-origin:* set on it).
+with your storage url and tempurl key. Go to:
+
+http://127.0.0.1:5000/dropzone
+
+and magically upload files into your CF container. (As long as you have x-container-meta-access-control-allow-origin:* set on the container you are pointing at).
 
 Hopefully this will help clear things up.
 
